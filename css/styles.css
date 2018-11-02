@@ -1,0 +1,229 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
+/* Global styles
+------------------------------------*/
+/* Remove bar */
+img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}
+/* border box fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  color: Black;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+/* Global Element Styling */
+a {
+    color: rgb(0,0,255);
+}
+a:hover {
+    text-decoration: none;
+}
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+h1 {
+  font-size: 6em;
+}
+h2 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 0;
+}
+h3 {
+  font-size: 2.2em;
+}
+h4 {
+  font-size: 1.5em;
+}
+p {
+  font-size: 1.2em;
+}
+li, dl {
+  font-size: 1.8em;
+  margin: 5px 0;
+}
+dd {
+  padding-left: 10px;
+}
+dt {
+  font-size: 1.1em;
+	font-weight: 400;
+}
+canvas {
+  border-radius: 10px;
+}
+
+/* Class Styling */
+.content-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+.column-narrow {
+  width: 35%;
+  padding-right: 3%;
+  min-height: 175px;
+}
+.column-wide {
+  width: 62%;
+  float: left;
+  min-height: 175px;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.center {
+  float: center;
+}
+
+[alt] {
+  font-weight: 400;
+}
+.content-img {
+  margin: 0 100px;
+}
+
+
+/* Navigation Styles
+************************/
+nav ul {
+  margin: 0;
+  padding: 0;
+  width: 95%;
+}
+nav li {
+  display: inline-block;
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.5vw;
+  margin: 0;
+  padding: 15px 5px;
+  width: 22.5%;
+  background: rgb(234, 234, 234);
+  border-radius: 10px 10px 0 0;
+}
+nav a {
+  text-decoration: none;
+  color: #0000ff;
+  color: rgba(0,0,255, 0.8);
+}
+
+
+/* Header styles
+------------------------------------*/
+header {
+  background: linear-gradient(rgba(255,255,255, 0.3), rgba(255,255,255, 0.3)), url(../images/mountain-glacier.jpg) /*url(http://publicdomainarchive.com/wp-content/uploads/2017/01/public-domain-images-free-stock-photos001-1080x810.jpg)*/ no-repeat;
+  background-size: cover;
+  color: Black;
+}
+header h1,
+header h2 {
+    color: Black;
+    margin: 0;
+}
+header h2 {
+  font-size: 4em;
+  margin: 0;
+}
+header h1 + h2 {
+  margin-top: 30px;
+}
+#about {
+  margin: 0;
+}
+.profile-img {
+  border-radius: 50%;
+  float: right;
+}
+
+/* Contact Link Styles */
+.contact-info {
+  text-align: left;
+  margin: 30px 0;
+}
+.contact-info a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0px 5px;
+  font-size: 1.5em;
+  line-height: 2em;
+  color: White;
+}
+.contact-info i {
+  font-size: 2em;
+  margin-right: 10px;
+  position: relative;
+  top: 10px;
+}
+
+/* Footer styles */
+footer {
+  background: #2B2D42; /* Blackish Blue */
+  color: #8D99AE; /* Grey */
+  text-align: center;
+}
+footer p {
+  margin: 0;
+}
+
+/*  Content Tabs
+------------------------------------*/
+section {
+  background: rgb(141,166,197); /* Slightly Transparent SteelBlue */
+}
+
+/* Extra-Cirricular
+------------------------------------*/
+.e-cirr h3 {
+  font-size: 2em;
+}
+.e-cirr li {
+  font-size: 1.7em;
+  font-weight: 500;
+}
+.e-cirr li li {
+  font-size: 0.9em;
+  font-weight: 500;
+}
+.e-cirr p {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#extrac {
+  margin-bottom: 10px;
+}
+
+/* Skills & Contact Info
+------------------------------------*/
+.skills {
+  overflow: visible;
+}
+.skills h2 {
+  text-align: center;
+}
+.skills li {
+  display: block;
+  margin: 10px 0;
+  padding-left: 5%;
+}
+.section {
+  margin: 30px 0;
+}

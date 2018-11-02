@@ -1,0 +1,49 @@
+/* When the viewport is less than 791px */
+@media (max-width: 791px) {
+  body {
+    font-size: 0.7em;
+  }
+  nav li {
+    font-size: 2.5vw;
+    margin: 0;
+    width: 23.5%;
+  }
+  canvas {
+    padding: 0;
+    float: center;
+  }
+  .profile-img {
+    display: none;
+  }
+  .column-wide {
+    text-align: center;
+    width: 70%;
+    float: center;
+    min-height: 175px;
+  }
+}
+
+/* When the screen is between 779 and 300px */
+@media (max-width: 779px) and (min-width: 300px) {
+  body {
+    font-size: 0.6em;
+  }
+  nav li {
+    font-size: 2.46vw;
+    width: 24%;
+  }
+  .skills li {
+    display: block;
+    margin: 10px 0;
+    padding-left: 0;
+  }
+  .content-img {
+    display: none;
+  }
+  #extrac {
+    padding: 0;
+  }
+  .contact-info i {
+    top: 7px;
+  }
+}

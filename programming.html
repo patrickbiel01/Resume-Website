@@ -1,0 +1,100 @@
+<!--
+
+Programmed by: Patrick Biel
+Date: August 3, 2018
+Description: Website used to display the resume of Patrick Biel
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Programming | Patrick Biel</title>
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<!-- Styles	-->
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/screen-support.css">
+		<!-- Scripts -->
+		<script type="text/javascript" src="script/navigation.js" defer> </script>
+		<!-- Animations	-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.js"></script>
+		<script src="script/animation/tree.js" defer></script>
+		<script src="script/animation/leaf.js" defer></script>
+  	<script src="script/animation/branch.js" defer></script>
+		<script src="script/animation/snowflake.js" defer></script>
+    <script src="script/animation/utility.js" defer></script>
+    <script src="script/animation/iterativefractal.js" defer></script>
+	</head>
+
+	<body>
+		<!-- Navigation -->
+    <nav role="navigation">
+			<ul>
+				<li> <a href="index.html"> Home </a> </li>
+				<li> <a href="programming.html">Programming</a> </li>
+				<li> <a href="school.html">Academics</a> </li>
+				<li> <a href="extra-curricular.html">Extra-Curricular</a> </li>
+			</ul>
+		</nav>
+
+		<main role="main">
+    <article role="article">
+
+			<!-- Programming Experience -->
+			<section class="programming" role="region">
+				<div class="content-wrap">
+					<h2 id="programming">Programming Experience</h2>
+
+					<h3> Languages </h3>
+					<ul>
+						<li>Android Development in Java</li>
+						<li>C++</li>
+						<li>iOS Development in Swift</li>
+						<li>Front-end web development with HTML, CSS, JavaScript</li>
+						<li>Server-side PHP</li>
+					</ul>
+
+					<h3>Projects</h3>
+					<dl>
+						<dt>Monster Siege Defence</dt>
+						<dd>Tower Defence Game made for iOS devices <br> <a href="https://github.com/patrickbiel01/Monster-Siege-Defence" target="_blank">Click to view source code</a></dd>
+						<dt>This website made with HTML and CSS</dt>
+						<dd><a href="https://github.com/patrickbiel01/Resume-Website" target="_blank">Click to view source code</a></dd>
+						<dt>Tree Life Cycle Animation in JavaScript</dt>
+						<dd> A tree experiencing all seasons made with the p5 Graphical Processing framework <br> <a href="https://github.com/patrickbiel01/Resume-Website/tree/master/script/animation" target="_blank">Click to view source code</a></dd>
+						<div id='canvasContainer'></div>
+						<dt>Weather Forecast</dt>
+						<dd>A PHP-made website that retrieves weather data for a given location <br> <a href="http://www.patrickbiel.com/weather-app/" target="_blank">Click to Use</a>
+						<br>
+						<a href="https://github.com/patrickbiel01/Weather-Conditions" target="_blank">Click to view source code</a></dd>
+						<dt>Music Player</dt>
+						<dd>An Android Application that plays music from your device <br> <a href="https://github.com/patrickbiel01/Music-Player" target="_blank">Click to view source code</a> </dd>
+						<!-- Future Project
+						<dt>Chess in C++ and SFML</dt>
+						<dd>Windows Desktop Application that is PvP chess<br> <a href="projects/c++-chess.zip" download>Click to view source code</a></dd>
+						-->
+						<!-- Future Project
+						<dt>Global Leaderboard</dt>
+						<dd>A global leaderboard made for Monster-Siege-Defence with a SQL Database and PHP <br> <a href="projects/c++-chess.zip" download>Click to view source code</a></dd>
+						-->
+					</dl>
+				</div>
+			</section>
+
+    </article>
+		</main>
+
+		<!-- Footer & contact info -->
+		<footer role="contentinfo">
+			<div class="content-wrap">
+				<p>Copyright 2018 by Patrick Biel</p>
+			</div>
+		</footer>
+
+	</body>
+
+</html>
