@@ -1,36 +1,32 @@
-/* When the viewport is less than 791px */
-@media (max-width: 791px) {
+/* When the viewport is greater than 781px */
+@media (min-width: 780px) {
   body {
-    font-size: 0.7em;
-  }
-  nav li {
-    font-size: 3.6vw;
-    margin: 0;
-    width: 42.5%;
+    font-size: 0.6em;
   }
   canvas {
     padding: 0;
     float: center;
   }
-  .profile-img {
-    display: none;
-  }
   .column-wide {
     text-align: center;
     width: 70%;
-    float: center;
+    float: left;
     min-height: 175px;
+  }
+  .profile-img {
+    width: 208px;
+    height: 208px;
   }
 }
 
-/* When the screen is between 779 and 300px */
-@media (max-width: 779px) and (min-width: 300px) {
+/* When the screen is less than 779px */
+@media (max-width: 779px) {
   body {
     font-size: 0.6em;
   }
-  nav li {
-    font-size: 3.5vw;
-    width: 42.5%;
+  nav a {
+    font-size: calc(40% + 3vw);
+    margin: 10px 4%;
   }
   .skills li {
     display: block;
@@ -45,5 +41,22 @@
   }
   .contact-info i {
     top: 7px;
+  }
+  .contentinfo {
+    margin: 0;
+  }
+}
+
+/* When Screen is less than 480px */
+@media (max-width: 375px) {
+  .profile-img {
+    float: center;
+  }
+  .expandableProject p {
+    width: 60%;
+  }
+  nav a {
+    font-size: calc(40% + 3.5vw);
+    margin: 10px 2%;
   }
 }
