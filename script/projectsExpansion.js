@@ -11,9 +11,13 @@ function toggleContent(c_id) {
   if ( text.localeCompare(OPEN) === 0 ) {
     projectContainer.style.display = "block";
     toggleButton.innerHTML = "-";
+    if (c_id == 7)
+        loop();
   }else if ( text.localeCompare(CLOSE) === 0 ) {
     projectContainer.style.display = "none";
     toggleButton.innerHTML = "+";
+    if (c_id == 7)
+        noLoop();
   }
 
 }

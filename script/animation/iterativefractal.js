@@ -35,6 +35,7 @@ function setup() {
   //Insert Canvas
   let canvas = createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
   canvas.parent("canvasContainer");
+  noLoop();
 }
 
 /* Function called constantly */
