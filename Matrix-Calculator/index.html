@@ -1,0 +1,96 @@
+<!--
+	Programmed by: Patrick Biel
+	Date: August 3, 2018
+	Description: Website used to calculate various matrix stuff
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Matrix Calculator</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<!-- Styles	-->
+		<link rel="stylesheet" href="styles.css">
+		<!-- Scripts -->
+		<script type="text/javascript" src="basicMatrixOperations.js"> </script>
+		<script type="text/javascript" src="createMatrixInput.js" > </script>
+		<script type="text/javascript" src="calculateDriver.js"> </script>
+		<script type="text/javascript" src="navigation.js" defer > </script>
+	</head>
+
+	<body>
+		<!-- Navigation -->
+		<div class="sidenav">
+			<ul id="navLinkList">
+				<button class="selected"> Determinant </button>
+	  		<button> Inverse </button>
+				<button> Gaussian Elimination </button>
+				<button> Matrix Powers </button>
+				<button> Multiplication </button>
+	  		<button> Cofactor </button>
+			  <button> Adjugate </button>
+				<button> Rank </button>
+				<button> Add </button>
+				<button> Subtract </button>
+				<button> Transpose </button>
+			</ul>
+
+		</div>
+
+	<div class="pageContent">
+			<main role="main">
+			<h1> Matrix Calculator </h1>
+
+			<input class="sizeInput" placeholder="# of rows" id="rowDim1" type="text">
+			x
+			<input class="sizeInput" placeholder="# of columns" id="columnsDim1" type="text">
+			<div class="error" id="sizeError1"></div>
+			<button onclick="onGenerateClick(1)" type="button" name="submit"> Create new Matrix </button>
+			<table class="table table-bordered table-condensed">
+      	<tbody id="tableBody1"> </tbody>
+    	</table>
+			<div class="error" id="inputError1"></div>
+
+			<div style="display: none" id="conditionalTable">
+				<input class="sizeInput" placeholder="# of rows" id="rowDim2" type="text">
+				x
+				<input class="sizeInput" placeholder="# of columns" id="columnsDim2" type="text">
+				<div class="error" id="sizeError2"></div>
+				<button onclick="onGenerateClick(2)" type="button" name="submit"> Create new Matrix </button>
+
+				<table class="table table-bordered table-condensed">
+	      	<tbody id="tableBody2"> </tbody>
+	    	</table>
+				<div class="error" id="inputError2"></div>
+			</div>
+
+			<div id="powerField" style="display: none" >
+				<input id="expInput" class="sizeInput" placeholder="Exponent" type="text">
+				<div class="error" id="expError"></div>
+			</div>
+
+			<button id="calcButton" onclick="onCalculateClick()" type="button" name="submit"> Calculate </button>
+
+			<div class="outputContainer">
+				<em style="font-size: 0.65em;">Output</em>
+				<div id="output"> </div>
+			</div>
+
+			</main>
+
+			<!-- Footer & contact info -->
+			<footer role="contentinfo">
+				<div class="content-wrap">
+					<p>Copyright 2019 by Patrick Biel</p>
+				</div>
+				<div>Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+			</footer>
+
+	</div>
+	</body>
+
+</html>

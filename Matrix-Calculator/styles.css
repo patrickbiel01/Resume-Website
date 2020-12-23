@@ -1,0 +1,125 @@
+/* Remove bar */
+img[alt="www.000webhost.com"] {
+  display: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.sidenav button {
+  padding: 7px 3px 7px 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+  text-align: left;
+  border-width: 0px;
+  background-color: #eee
+}
+
+.sidenav button:hover {
+  color: #064579;
+}
+
+#selected {
+  color: darkblue;
+}
+
+.pageContent {
+  margin-left: 170px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.sizeInput {
+  display: inline;
+  padding: 0 !important;
+  margin: 5px 10px !important;
+  border: 0 !important;
+  width: 20% !important;
+  border-radius: 0 !important;
+  line-height: 2 !important;
+  font-size: 0.7em;
+}
+
+ td {
+  max-width: 100px;
+  margin: 0 5px 0 5px;
+  padding: 0;
+}
+.formControl {
+  max-width: 75px;
+  padding: 0 5px;
+  line-height: 2 !important;
+}
+
+#conditionalTable {
+  margin-top: 25px;
+}
+
+#calcButton {
+  margin-top: 40px;
+}
+
+#output {
+  display: block;
+  background-color: lightgrey;
+  border-radius: 15px;
+  height: 200px;
+  width: 100%;
+  overflow: scroll;
+}
+
+.outputContainer {
+  margin-top: 60px;
+}
+
+.outputMatrix {
+  border-width: 0 medium 0 medium;
+  border-style: solid;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.outputMatrix tr {
+  margin: 15px;
+  margin-right: 4px;
+}
+.outputMatrix tr:nth-child(even) {
+  background-color: rgb(199, 199, 199);
+}
+.outputMatrix td {
+  display: inline-block;
+  overflow: scroll;
+  width: 80px;
+  margin: 2px 7px 2px 20px;
+}
+
+.error {
+  background-color: rgba(201, 0, 7, 0.85);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 0.85em;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
