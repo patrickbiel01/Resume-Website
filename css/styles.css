@@ -12,6 +12,7 @@ img[alt="www.000webhost.com"] {
 /* border box fix */
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -109,6 +110,7 @@ nav {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
+  z-index: 100;
 }
 nav ul {
   margin: 0;
@@ -333,4 +335,10 @@ section {
 /* Centering Animation */
 #canvasContainer {
     margin: 5px 0px 10px 1px;
+}
+#githubIcon {
+  z-index: 0;
+}
+#linkedinIcon {
+  z-index: 0;
 }
