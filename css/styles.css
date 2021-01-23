@@ -26,7 +26,9 @@ body {
 
 /* Global Element Styling */
 a {
-    color: rgb(255,178,0);
+    /* color:rgb(255,178,0); */
+    color: rgb(10, 255, 50);
+    font-weight: 500;
 }
 a:hover {
     text-decoration: none;
@@ -208,7 +210,7 @@ section {
   text-align: center;
 }
 .contact-link {
-  color: rgb(57,255,20);
+  color: #69b22c/* rgb(57,255,20) */;
 }
 .skills {
   background: rgb(50, 50, 50) /* rgba(0, 0, 0, 0.85) */ ;
@@ -271,7 +273,7 @@ section {
   font-size: 1.4em;
 }
 .expandableProject {
-  background-color: rgb(35, 35, 255)/*  Blue  */;
+  background-color: rgb(0, 0, 123)/* rgb(35, 35, 255)  Blue  */;
   margin: 0;
   border: solid 3px Black;
   border-radius: 5px;
@@ -295,7 +297,7 @@ section {
   margin-right: 5px;
   margin-top: 0;
   cursor: pointer;
-  background-color: rgb(51, 153, 255);
+  background-color: rgb(35, 130, 210)/*  rgb(51, 153, 255)  */;
 }
 .expandBtn:hover {
   background-color: rgb(51, 102, 255);
@@ -319,7 +321,7 @@ section {
     margin-top: 17px;
 }
 .projectContainer{
-  background-color: rgb(0, 153, 153);
+  background-color: rgb(42 143 210) /* rgb(0, 153, 153) */;
   margin-left: 20px;
   padding-left: 30px;
   display: none;
