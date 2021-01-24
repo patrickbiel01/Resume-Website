@@ -113,14 +113,17 @@ nav {
   position: -webkit-sticky;
   top: 0;
   z-index: 100;
+  display: flex;
 }
 nav ul {
   margin: 0;
   padding: 0;
-  width: 95%;
+  /* width: 95%; */
   background: rgba(0, 0, 0, 0.95)
 }
 nav a {
+  flex: 33%;
+  justify-content: center;
   display: inline-block;
   text-align: center;
   font-weight: 900;
@@ -129,7 +132,7 @@ nav a {
   margin: 10px 7%;
   /* padding: 15px 5px; */
   /* width: 45%; */
-  text-decoration: underline;
+  text-decoration: none;
   color: #69b22c;
 }
 nav a:hover {
@@ -191,7 +194,7 @@ header h1 {
 
 /* Footer styles */
 footer {
-  background: rgb(18, 18, 18);/*#2B2D42  Blackish Blue */
+  background: rgb(55, 55, 55);/*#2B2D42  Blackish Blue */
   color: White/* #8D99AE Grey */
   text-align: center;
 }
@@ -216,7 +219,7 @@ section {
   background: rgb(50, 50, 50) /* rgba(0, 0, 0, 0.85) */ ;
 }
 .project-section {
-  background: rgb(220,220,210)
+  background: rgb(110,110,105); /* rgb(220,220,210) */
 }
 
 /* Extra-Cirricular
@@ -248,6 +251,11 @@ section {
 .skills h2 {
   text-align: center;
 }
+.skills h3 {
+  margin-top: 10px;
+  font-size: 2.65em;
+  text-align: center;
+}
 .skills li {
   display: block;
   margin: 10px 0;
@@ -258,6 +266,17 @@ section {
 }
 .skills p {
   text-align: center;
+}
+.skill-row {
+  display: flex;
+}
+.skill-col {
+  flex: 50%;
+}
+
+.skill-col p {
+  font-size: 1.8em;
+  margin: 5px 0;
 }
 
 /* Projects Section */
@@ -273,7 +292,7 @@ section {
   font-size: 1.4em;
 }
 .expandableProject {
-  background-color: rgb(0, 0, 123)/* rgb(35, 35, 255)  Blue  */;
+  background-color: rgb(12, 20, 50) /* rgb(0, 0, 123) rgb(35, 35, 255)  Blue  */;
   margin: 0;
   border: solid 3px Black;
   border-radius: 5px;
@@ -297,7 +316,8 @@ section {
   margin-right: 5px;
   margin-top: 0;
   cursor: pointer;
-  background-color: rgb(35, 130, 210)/*  rgb(51, 153, 255)  */;
+  color: White;
+  background-color: rgb(20, 50, 120) /* rgb(35, 130, 210)  rgb(51, 153, 255)  */;
 }
 .expandBtn:hover {
   background-color: rgb(51, 102, 255);
@@ -321,7 +341,7 @@ section {
     margin-top: 17px;
 }
 .projectContainer{
-  background-color: rgb(42 143 210) /* rgb(0, 153, 153) */;
+  background-color: rgb(20, 70, 105)/* rgb(42, 143, 210)  rgb(0, 153, 153) */;
   margin-left: 20px;
   padding-left: 30px;
   display: none;
