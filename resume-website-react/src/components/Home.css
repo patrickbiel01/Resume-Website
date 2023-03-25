@@ -1,0 +1,103 @@
+/* Header styles
+------------------------------------*/
+header {
+    background: linear-gradient(rgba(0,0,100, 0.19), rgba(0,0,0, 0.1)), url(../../../images/star-scape-2.jpg) no-repeat center;
+    background-size: auto 100%;
+    background-size: cover;
+    color: Black;
+  }
+  header h1,
+  header h2 {
+      color: White;
+      margin: 0;
+  }
+  header h2 {
+    font-size: 3.7em;
+    margin: 0;
+  }
+  header h1 + h2 {
+    margin-top: 30px;
+  }
+  header h1 {
+      margin-top: 100px;
+      font-size: 2em;
+  }
+  #about {
+    margin: 0;
+    color: White; 
+    text-align: center
+  }
+  .profile-img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+  #student-tag {
+    color: White; 
+    text-align: center
+  }
+  #home-content-container {
+    display: inline-block; 
+    width: 70%;
+  }
+  
+  /* Contact Link Styles */
+  .contact-info {
+    text-align: center;
+    margin-top: 115px;
+    padding-bottom: 30px;
+  }
+  .contact-info a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 30px;
+    font-size: 1.2em;
+    line-height: 1.7em;
+    color: White;
+  }
+  .contact-info-icon {
+    font-size: 1.3em;
+    margin-right: 10px;
+    position: relative;
+    top: 7px;
+  }
+
+
+  /* About Section
+------------------------------------*/
+.skills {
+  overflow: visible;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+.skills h2 {
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+.skills h3 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.skills li {
+  display: block;
+  margin: 10px 0;
+  padding-left: 5%;
+}
+.skills p {
+  text-align: center;
+}
+.skill-row {
+  display: flex;
+}
+.skill-col {
+  flex: 50%;
+}
+.skill-col p {
+  margin: 5px 0;
+}

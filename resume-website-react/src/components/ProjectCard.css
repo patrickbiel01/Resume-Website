@@ -1,0 +1,121 @@
+.detailed-card {
+    background-color: rgb(236, 237, 240);
+    padding: 20px 10px 20px 10px;
+}
+
+.project-card {
+    background-color: rgb(0, 0, 0);
+    padding: 20px 10px 20px 10px;
+    color: white;
+    position: relative;
+    border: 1px rgb(58, 58, 58) solid;
+    border-left: 0;
+    border-right: 0;
+}
+
+.project-card-links{
+    margin: 10px 20px 10px 20px;
+}
+
+h3 {
+    margin-left: 15px;
+    font-size: 0.9em;
+}
+h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+a.project-card-links {
+    outline: none;
+    text-decoration: none;
+}
+
+a.project-card-links:link {
+    color: rgb(0, 0, 214);
+}
+
+a.project-card-links:visited {
+    color: rgb(0, 0, 204);
+}
+
+a.project-card-links:focus,
+a.project-card-links:hover {
+    border-bottom: 1px solid;
+}
+
+
+Button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.links-section {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 2.5vw;
+}
+
+
+
+
+
+.project-content-wrapper {
+    display: flex;
+}
+.description-section {
+    flex: 2;
+    padding: 20px   10px    20px    10px;
+}
+.img-section {
+    padding: 10px;
+    flex: 1;
+}
+.img-section > img {
+    display: block;
+}
+.project-image {
+    height: auto;
+    max-width: 20vw;
+    min-width: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    z-index: 9999;
+}
+
+.features-project-section {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+
+.alert-enter {
+    opacity: 0;
+    transform: translateY(300);
+    transition: opacity 600ms, transform 600ms;
+  }
+.alert-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+}
+.alert-exit {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+}
+.alert-exit-active {
+    opacity: 0;
+    transform: translateY(300);
+    transition: opacity 600ms, transform 600ms;
+}
+  
