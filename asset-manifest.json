@@ -1,16 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.dd438893.css",
-    "main.js": "/static/js/main.5906ba29.js",
+    "main.js": "/static/js/main.e0f4ef04.js",
+    "static/media/patrick_biel.jpg": "/static/media/patrick_biel.b5fb3776f672881ee44e.jpg",
+    "static/media/Relic_Race_Store_XsMax.png": "/static/media/Relic_Race_Store_XsMax.28a8cf05daa2becfcc25.png",
+    "static/media/Relic_Race_GlobalLeaderboard_XR.png": "/static/media/Relic_Race_GlobalLeaderboard_XR.f63cf02fdf6edbbb6a61.png",
     "static/media/star-scape-2.jpg": "/static/media/star-scape-2.9f3d0ada069029482198.jpg",
     "static/media/model.png": "/static/media/model.1b57394a1ccd5c563237.png",
     "static/media/Resume_Patrick_Biel.pdf": "/static/media/Resume_Patrick_Biel.d7dd4b1a0bf6a4dfa46b.pdf",
     "index.html": "/index.html",
     "main.dd438893.css.map": "/static/css/main.dd438893.css.map",
-    "main.5906ba29.js.map": "/static/js/main.5906ba29.js.map"
+    "main.e0f4ef04.js.map": "/static/js/main.e0f4ef04.js.map"
   },
   "entrypoints": [
     "static/css/main.dd438893.css",
-    "static/js/main.5906ba29.js"
+    "static/js/main.e0f4ef04.js"
   ]
 }
