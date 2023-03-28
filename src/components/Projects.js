@@ -31,7 +31,7 @@ function Projects() {
                 </ul>
               </div>
             }
-            images={["http://patrickbiel.com/images/Relic_Race_Store_XsMax.png", "http://patrickbiel.com/images/Relic_Race_GlobalLeaderboard_XR.png"]}
+            images={[require("../resources/Relic_Race_Store_XsMax.png"), require("../resources/Relic_Race_GlobalLeaderboard_XR.png")]}
         ></ProjectCard>
 
         <ProjectCard

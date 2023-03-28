@@ -10,7 +10,7 @@ function Home() {
             <div id={"homeBanner"} className={"content-wrap"}>
 
                 <div id={"home-content-container"}>
-                    <img className="profile-img" src="../../images/star-scape-2.jpg" alt="Patrick Biel" width="200px" height="200px"/>
+                    <img className="profile-img" src={require("../resources/patrick_biel.jpg")} alt="Patrick Biel" width="200px" height="200px"/>
                     <h1 id={"about"} >Patrick Biel</h1>
                     <h3 id={"student-tag"} >Computer Engineering Student</h3>
                 </div>
