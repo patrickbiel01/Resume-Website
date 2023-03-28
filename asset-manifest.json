@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Resume-Website/static/css/main.836848fc.css",
-    "main.js": "/Resume-Website/static/js/main.17dd95b8.js",
-    "static/media/star-scape-2.jpg": "/Resume-Website/static/media/star-scape-2.9f3d0ada069029482198.jpg",
-    "static/media/model.png": "/Resume-Website/static/media/model.1b57394a1ccd5c563237.png",
-    "static/media/Resume_Patrick_Biel.pdf": "/Resume-Website/static/media/Resume_Patrick_Biel.d7dd4b1a0bf6a4dfa46b.pdf",
-    "index.html": "/Resume-Website/index.html",
-    "main.836848fc.css.map": "/Resume-Website/static/css/main.836848fc.css.map",
-    "main.17dd95b8.js.map": "/Resume-Website/static/js/main.17dd95b8.js.map"
+    "main.css": "/static/css/main.dd438893.css",
+    "main.js": "/static/js/main.5906ba29.js",
+    "static/media/star-scape-2.jpg": "/static/media/star-scape-2.9f3d0ada069029482198.jpg",
+    "static/media/model.png": "/static/media/model.1b57394a1ccd5c563237.png",
+    "static/media/Resume_Patrick_Biel.pdf": "/static/media/Resume_Patrick_Biel.d7dd4b1a0bf6a4dfa46b.pdf",
+    "index.html": "/index.html",
+    "main.dd438893.css.map": "/static/css/main.dd438893.css.map",
+    "main.5906ba29.js.map": "/static/js/main.5906ba29.js.map"
   },
   "entrypoints": [
-    "static/css/main.836848fc.css",
-    "static/js/main.17dd95b8.js"
+    "static/css/main.dd438893.css",
+    "static/js/main.5906ba29.js"
   ]
 }
